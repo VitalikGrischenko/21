@@ -1,0 +1,34 @@
+a{
+    text-decoration: none;
+}
+ ul{
+    list-style: none;
+ }
+.card-title{
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: #2196F3;
+}
+.card-list{
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #212121;
+}
+.card-item{
+    font-family: 'Roboto';
+    font-weight: 900;
+}
+.card-section{
+    font-family: 'Roboto';
+font-weight: 700;
+}
+.card-link{
+    font-family: 'Roboto';
+font-weight: 400;
+}
+.card-studio{
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #2196F3;
+}
+ 
