@@ -1,34 +1,100 @@
-a{
+a {
     text-decoration: none;
 }
- ul{
+
+ul {
     list-style: none;
- }
-.card-title{
+}
+
+.header-list {
     font-family: 'Raleway';
     font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
     color: #2196F3;
 }
-.card-list{
+
+.header-list2 {
     font-family: 'Roboto';
     font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
     color: #212121;
 }
-.card-item{
+
+.main-h1 {
     font-family: 'Roboto';
     font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: #FFFFFF;
 }
-.card-section{
+
+.hero-title {
     font-family: 'Roboto';
-font-weight: 700;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
 }
-.card-link{
+
+.header-link {
     font-family: 'Roboto';
-font-weight: 400;
+    font-weight: 400;
+    width: 122px;
+    height: 16px;
 }
-.card-studio{
+
+.card-studio {
     font-family: 'Roboto';
     font-weight: 500;
     color: #2196F3;
 }
- 
+
+.main-button {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px
+}
+
+.main-p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer-adrees {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer-link {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.main-h2 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.main-p2 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.main-title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
