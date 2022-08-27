@@ -4,6 +4,8 @@ a {
 
 ul {
     list-style: none;
+    display: flex;
+    margin: 0px;
 }
 
 .header-list {
@@ -12,22 +14,38 @@ ul {
     font-size: 26px;
     line-height: 31px;
     color: #2196F3;
-}
+    display: flex;
+    justify-content: center;
+margin-left: 215;
 
+}
 .header-list2 {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     color: #212121;
+    display: flex;
+    justify-content: center;
+margin-left: 93;
+margin-right: 94px;
 }
+
+header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+.header-list:first-child{
+    margin-left: 400px;
+    margin-right: 93px;
+    }
 
 .main-h1 {
     font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
-    color: #FFFFFF;
+
 }
 
 .hero-title {
@@ -42,6 +60,8 @@ ul {
     font-weight: 400;
     width: 122px;
     height: 16px;
+    display: flex;
+    justify-content: center;
 }
 
 .card-studio {
