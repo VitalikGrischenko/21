@@ -8,7 +8,7 @@ ul {
     margin: 0px;
 }
 
-.header-list {
+.header-logo {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -20,7 +20,7 @@ ul {
 
 }
 
-.header-list2 {
+.header-peche {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
@@ -42,7 +42,7 @@ header {
     margin-right: 93px;
 }
 
-.main-h1 {
+.hero-title {
     font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
@@ -53,7 +53,7 @@ header {
     margin-right: 452px;
 }
 
-.hero-title {
+.work-title {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
@@ -78,7 +78,7 @@ header {
     color: #2196F3;
 }
 
-.main-button {
+.hero-button {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
@@ -89,7 +89,7 @@ header {
     margin-right: 724px;
 }
 
-.main-p {
+.benefits-text {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
@@ -114,7 +114,7 @@ header {
     line-height: 24px;
 }
 
-.main-h2 {
+.benefits-title {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
@@ -125,14 +125,14 @@ header {
     margin-right: 215px;
 }
 
-.main-p2 {
+.team-text{
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
 }
 
-.main-title {
+.team-profession {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
@@ -140,13 +140,12 @@ header {
     display: flex;
     justify-content: center;
 }
-.main-li{
-display: flex;
+.work-chest{
     justify-content: center;
 margin-left: 21px;
     margin-right: 30px;
 }
-.main-p3{
+.team-text{
     font-family: 'Roboto';
 font-weight: 500;
     font-size: 16px;
@@ -164,4 +163,9 @@ letter-spacing: 0.03em;
     color: #2196F3;
     display: flex;
 
+}
+.team-chest{
+    justify-content: center;
+    margin-left: 21px;
+        margin-right: 30px;
 }
