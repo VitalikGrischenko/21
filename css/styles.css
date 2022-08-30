@@ -97,7 +97,7 @@ header {
     display: flex;
     justify-content: center;
     margin-right: 30px;
-    margin-left: 215px;
+    margin-left: 21px;
 }
 
 .footer-adrees {
@@ -137,10 +137,31 @@ header {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    display: flex;
+    justify-content: center;
 }
 .main-li{
 display: flex;
     justify-content: center;
 margin-left: 21px;
     margin-right: 30px;
+}
+.main-p3{
+    font-family: 'Roboto';
+font-weight: 500;
+    font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+    display: flex;
+    justify-content: center;
+}
+.footer-list{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #2196F3;
+    display: flex;
+
 }
