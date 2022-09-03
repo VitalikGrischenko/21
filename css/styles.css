@@ -4,33 +4,67 @@ a {
 
 ul {
     list-style: none;
-    margin: 0px;
+    margin:0px;
+    padding-inline-start: 0px;
+    padding: 0px;
 }
-
+header{
+    padding-bottom: 0px;
+}
 body {
     font-family: 'Roboto';
 }
 .benefits-section{
-    display: flex;
+    display: flex
+}
+
+.work-section{
+    display: flex
 }
 .hero-section{
     display: flex;
 }
+
+.team-section{
+    display: flex
+}
+
+.end-footer{
+    display: flex
+}
+
+.hero-section{
+    outline: 2px solid red;
+}
+
+.benefits-section{
+    outline: 2px solid red;
+}
+
 .work-section{
-    display: flex;
+    outline: 2px solid red;
 }
 .team-section{
-    display: flex;
+    outline: 2px solid red;
 }
-.end-footer{
-    display: flex;
+
+.container{
+    outline: 2px solid red;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.benefits-conteiner{
+    outline: 2px solid red;
 }
 
 .header-logo {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19px;
+    line-height: 1.19;
     color: #000305;
     justify-content: center;
     margin-left: 215px;
@@ -40,11 +74,20 @@ body {
     color: #2196F3
 }
 
+.header-page {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #212121;
+    justify-content: center;
+    margin-left: 93;
+    margin-right: 94px;
+}
 .header-page:hover {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14px;
-    color: #212121;
+    line-height: 1.14;
+    color: #2196F3;
     justify-content: center;
     margin-left: 93;
     margin-right: 94px;
@@ -63,25 +106,41 @@ header {
 .hero-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36px;
+    line-height: 1.36;
     justify-content: center;
     margin-left: 452px;
     margin-right: 452px;
+    color: #FFFFFF;
+}
+.hero-section
+{
+    display: flex;
+    background: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 280px;
+    padding-left: 452px;
+    padding-right: 452px;
 }
 
 .work-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.16px;
+    line-height: 1.16;
     justify-content: center;
     margin-left: 617;
 }
 
-.header-link:hover {
+.header-link {
     font-weight: 400;
     width: 122px;
     justify-content: center;
     color: #757575;
+}
+.header-link:hover {
+    font-weight: 400;
+    width: 122px;
+    justify-content: center;
+    color: #2196F3;
 }
 
 .card-studio {
@@ -92,15 +151,15 @@ header {
 .hero-button {
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.8px;
-    margin-left: 724px;
-    margin-right: 724px;
+    line-height: 1.8;
+    color: #FFFFFF;
+    background: #2196F3;
 }
 
 .benefits-text {
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.7px;
+    line-height: 1.7;
     justify-content: center;
     margin-right: 30px;
     margin-left: 215px;
@@ -115,13 +174,13 @@ header {
 .footer-link {
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.71px;
+    line-height: 1.71;
 }
 
 .benefits-title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     justify-content: center;
     margin-left: 30px;
     margin-right: 215px;
@@ -131,26 +190,26 @@ header {
 
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.18px;
+    line-height: 1.18;
 }
 
 .team-profession {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.18px;
+    line-height: 1.18;
     justify-content: center;
 }
 
 .work-chest {
     justify-content: center;
     margin-left: 21px;
-    margin-right: 1.42px;
+    margin-right: 1.42;
 }
 
 .team-text {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.18px;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -161,7 +220,7 @@ header {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19px;
+    line-height: 1.19;
     color: #000305;
 
 
@@ -175,10 +234,16 @@ header {
 }
 
 .end-link {
-    font-family: 'Roboto';
     font-size: 14px;
     line-height: 1.71px;
     letter-spacing: 0.03em;
+    color: #757575;
+}
+.end-link:hover {
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
 }
 
 .team-item {
