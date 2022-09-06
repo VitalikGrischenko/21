@@ -54,6 +54,11 @@ body {
     margin-right: auto;
 }
 
+.header-logo-page{
+    display: flex;
+
+}
+
 .page {
     display: flex;
     align-items: center;
@@ -83,6 +88,16 @@ body {
 
 
 .container {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container2 {
     align-items: center;
     width: 1200px;
     padding-left: 15px;
@@ -138,6 +153,8 @@ header {
 }
 
 .hero-title {
+    margin-left: 452px;
+    margin-right: 452px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -182,6 +199,9 @@ header {
 }
 
 .hero-button {
+    justify-content: center;
+    margin-left: 724px;
+    margin-right: 724px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
@@ -338,9 +358,15 @@ header {
     letter-spacing: 0.03em;
     color: #757575;
 }
-.work-portfolio-sectoin{
-    display: flex;
-    align-items: center;
+
+
+.work-iteam-portfolio{
+    margin-bottom: 140px;
     margin-left: 215px;
     margin-right: 30px;
+}
+.work-portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    
 }
