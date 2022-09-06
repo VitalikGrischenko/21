@@ -65,6 +65,7 @@ body {
 }
 
 .benefits {
+    margin-top: 94px;
     display: flex;
 }
 
@@ -153,13 +154,11 @@ header {
 }
 
 .hero-title {
-    margin-left: 452px;
-    margin-right: 452px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    padding-left: 452px;
-    padding-right: 452px;
+    margin-left: 452px;
+    margin-right: 452px;
     color: #FFFFFF;
 }
 
@@ -199,7 +198,6 @@ header {
 }
 
 .hero-button {
-    justify-content: center;
     margin-left: 724px;
     margin-right: 724px;
     font-weight: 700;
@@ -298,6 +296,8 @@ header {
     letter-spacing: 0.03em;
     color: #2196F3;
 }
+
+
 
 .team-item {
     justify-content: center;
