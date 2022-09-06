@@ -177,6 +177,9 @@ header {
     justify-content: center;
     margin-left: 617;
 }
+.work-item{
+    margin-right: 30px;
+}
 
 .header-link {
     font-weight: 400;
