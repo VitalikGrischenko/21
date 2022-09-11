@@ -18,17 +18,6 @@ body {
     font-family: 'Roboto';
 }
 
-
-.benefits-section {
-    display: flex
-}
-
-
-.hero-section {
-    display: flex;
-    justify-content: center;
-}
-
 .team-section {
     display: flex
 }
@@ -36,14 +25,16 @@ body {
 
 
 .benefits-section {
+    margin-right: 30px;
+    margin-left: 215px;
     display: flex;
     justify-content: center;
-
-
+    align-items: center;
 }
 
-.end-footer {
 
+
+.end-footer {
     background: #2F303A;
     padding-left: 215px;
 }
@@ -54,12 +45,13 @@ body {
     margin-right: auto;
 }
 
-.header-logo-page{
+.header-logo-page {
     display: flex;
 
 }
 
-.page {
+.page { 
+    margin-left: 30px;
     display: flex;
     align-items: center;
 }
@@ -154,20 +146,20 @@ header {
 }
 
 .hero-title {
+
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36;
-    margin-left: 452px;
-    margin-right: 452px;
+    line-height: 1.3em;
+    text-align: center;
+    text-transform: uppercase;
     color: #FFFFFF;
+    padding-top: 200px;
+    
 }
 
 .hero-section {
     background: #2F303A;
-    padding-top: 200px;
-    padding-bottom: 280px;
-    padding-left: 452px;
-    padding-right: 452px;
+    height: 600px;
 }
 
 .work-title {
@@ -177,7 +169,8 @@ header {
     justify-content: center;
     margin-left: 617;
 }
-.work-item{
+
+.work-item {
     margin-right: 30px;
 }
 
@@ -212,12 +205,13 @@ header {
 }
 
 .benefits-text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    justify-content: center;
-    margin-right: 30px;
-    margin-left: 215px;
+    height: 75px;
+    width: 270px;
+    left: 215px;
+    top: 800px;
+    border-radius: nullpx;
+    
+
 }
 
 .footer-adrees {
@@ -233,12 +227,13 @@ header {
 }
 
 .benefits-title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    justify-content: center;
-    margin-left: 215px;
-    margin-right: 30px;
+    height: 16px;
+width: 270px;
+left: 215px;
+top: 774px;
+border-radius: nullpx;
+
+
 }
 
 .team-text {
@@ -301,6 +296,10 @@ header {
     color: #2196F3;
 }
 
+.end-footer {
+    margin-left: 215px;
+}
+
 
 
 .team-item {
@@ -355,6 +354,8 @@ header {
     color: #212121;
 }
 
+
+
 .work-portfolio-profession {
     font-weight: 400;
     font-size: 16px;
@@ -364,13 +365,16 @@ header {
 }
 
 
-.work-iteam-portfolio{
+
+
+.work-iteam-portfolio {
     margin-bottom: 140px;
     margin-left: 215px;
     margin-right: 30px;
 }
-.work-portfolio{
+
+.work-portfolio {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
