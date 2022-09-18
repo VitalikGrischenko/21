@@ -304,12 +304,10 @@ header {
 }
 
 /* end-section */
-
-.end-footer {
-text-align: center;
+.end-footer{
+    padding-left: 215px;
     background: #2F303A;
-;
-
+    ;
 }
 
 .end-logo {
