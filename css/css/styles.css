@@ -41,7 +41,6 @@ body {
     outline: 2px solid red;
     width: 1200px;
     padding-left: 15px;
-    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -209,12 +208,6 @@ header {
     padding-bottom: 94px;
 }
 
-.work-chest {
-    justify-content: center;
-    margin-left: 21px;
-    margin-right: 1.42;
-}
-
 .work-title {
     font-weight: 700;
     font-size: 36px;
@@ -258,6 +251,7 @@ header {
 }
 
 .team-profession {
+    margin-bottom: 30px;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -277,6 +271,8 @@ header {
 }
 
 .team-text {
+    margin-bottom: 10px;
+    margin-top: 30px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -304,7 +300,7 @@ header {
 }
 
 /* end-section */
-.end-footer{
+.end-footer {
     padding-left: 215px;
     background: #2F303A;
     ;
@@ -321,12 +317,21 @@ header {
 .end-adrees {
     font-weight: 400;
     font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
     line-height: 1.71px;
     letter-spacing: 0.03em;
     color: #757575;
 }
 
 .end-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.71px;
     letter-spacing: 0.03em;
