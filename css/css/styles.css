@@ -401,36 +401,34 @@ header {
     margin-right: auto;
 }
 
-.hero-portfolio-button {
-    justify-content: center;
-    margin-right: 55px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-    background: #2196F3;
-}
-
-.header-container-portfolio{
+.hero-portfolio{
     display: flex;
-    align-items: center;
-    border: ;
+    justify-content: center;
 }
 
-.hero-portfolio-button2 {
-    margin-bottom: 56px;
-    margin-top: 136px;
-    margin-right: 57px;
+.portfolio-button {
+    margin-right: 8px;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.hero-portfolio{
+    padding-bottom: 50px;
+    padding-top: 94px;
+}
+
+.portfolio-button:hover {
+    background-color: #2196F3;
+    color:#FFFFFF
 }
 
 .work-portfolio-text {
+    margin-top: 20px;
+    margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -459,9 +457,10 @@ header {
 }
 
 
-.work-iteam-portfolio {
 
+.iteam-portfolio {
     margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 .work-portfolio {
