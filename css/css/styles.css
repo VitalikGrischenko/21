@@ -413,6 +413,12 @@ header {
     background: #2196F3;
 }
 
+.header-container-portfolio{
+    display: flex;
+    align-items: center;
+    border: ;
+}
+
 .hero-portfolio-button2 {
     margin-bottom: 56px;
     margin-top: 136px;
