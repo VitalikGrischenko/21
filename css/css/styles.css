@@ -387,11 +387,6 @@ header {
     display: flex;
 }
 
-.clients-section {
-    list-style-type: none;
-    padding-left: 215px;
-}
-
 .clients-iteam:nth-child(1)::before {
     background-image: url("../../images/logo\ 1.png")
 }
