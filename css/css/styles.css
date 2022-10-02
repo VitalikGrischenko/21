@@ -114,12 +114,12 @@ header {
 
 /* .hero-section */
 
-.hero-windo{
+.hero-windo {
     height: 581px;
-width: 528px;
-left: 536px;
-top: 221px;
-border-radius: 4px;
+    width: 528px;
+    left: 536px;
+    top: 221px;
+    border-radius: 4px;
 
 }
 
@@ -280,8 +280,12 @@ border-radius: 4px;
 }
 
 .work-text {
-    bottom: 15%;
-    right: 30%;
+
+    background: rgba(47, 48, 58, 0.8);
+width: 370px;
+height: 70px;
+    bottom: 1%;
+    right: 0.1%;
     position: absolute;
     font-weight: 700;
     font-size: 14px;
@@ -326,8 +330,8 @@ border-radius: 4px;
     display: flex;
 }
 
-.team-svg:hover{
-background:#FFFFFF;
+.team-svg:hover {
+    background: #FFFFFF;
 }
 
 .team-text {
