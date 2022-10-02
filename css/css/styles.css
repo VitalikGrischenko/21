@@ -114,6 +114,15 @@ header {
 
 /* .hero-section */
 
+.hero-windo{
+    height: 581px;
+width: 528px;
+left: 536px;
+top: 221px;
+border-radius: 4px;
+
+}
+
 .hero-title {
     font-weight: 900;
     font-size: 44px;
@@ -270,6 +279,19 @@ header {
     padding-bottom: 94px;
 }
 
+.work-text {
+    bottom: 15%;
+    right: 30%;
+    position: absolute;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+
 .work-title {
     font-weight: 700;
     font-size: 36px;
@@ -280,10 +302,12 @@ header {
 }
 
 .work-item {
+    position: relative;
     margin-right: 30px;
 }
 
 .work {
+    position: relative;
     display: flex;
 }
 
@@ -300,7 +324,10 @@ header {
 
 .team-svg {
     display: flex;
+}
 
+.team-svg:hover{
+background:#FFFFFF;
 }
 
 .team-text {
@@ -374,6 +401,11 @@ header {
 
 /*clients-section*/
 
+.clients-section {
+
+    padding-top: 94px;
+}
+
 .clients-title {
     font-weight: 700;
     font-size: 36px;
@@ -384,6 +416,9 @@ header {
 }
 
 .clients {
+
+    padding-bottom: 50px;
+    padding-top: 94px;
     display: flex;
 }
 
