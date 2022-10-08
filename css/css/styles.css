@@ -364,9 +364,11 @@ fill: #2196F3;
 }
 
 .work-text {
+
     background: rgba(47, 48, 58, 0.8);
     width: 370px;
     height: 70px;
+
     bottom: 1%;
     right: 0.1%;
     position: absolute;
@@ -410,6 +412,7 @@ fill: #2196F3;
 }
 
 .team-svg {
+
     fill: #AFB1B8;
     display: flex;
 }
@@ -454,6 +457,10 @@ fill: #2196F3;
     margin-left: 0;
 }
 
+.team-item:first-child {
+    margin-left: 0;
+}
+
 .team-text {
     margin-bottom: 10px;
     margin-top: 30px;
@@ -484,9 +491,11 @@ fill: #2196F3;
     display: flex
 }
 
+
 .team-svg {
     margin-right: 33.97px;
 }
+
 
 /*clients-section*/
 
@@ -511,6 +520,7 @@ fill: #2196F3;
     display: flex;
 }
 
+
 .clients-svg {
     fill: #AFB1B8;
     margin-right: 30px;
@@ -519,6 +529,21 @@ fill: #2196F3;
 
 .clients-svg:hover{
 fill: #2196F3;
+}
+.clients-iteam::before {
+    content: "";
+    width: 170px;
+    height: 90px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #E5E5E5;
+    ;
+}
+
+
+.clients-iteam:nth-child(2)::before {
+    background-image: url("../../images/logo\ 2.png")
 }
 
 .clients-iteam::before {
@@ -531,6 +556,22 @@ fill: #2196F3;
     background-color: #E5E5E5;
     ;
 }
+
+.clients-iteam:nth-child(3)::before {
+    background-image: url("../../images/Object.png")
+}
+
+.clients-iteam::before {
+    content: "";
+    width: 170px;
+    height: 90px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #E5E5E5;
+    ;
+}
+
 
 .clients-iteam:nth-child(4)::before {
     background-image: url("../../images/logo\ 4.png")
